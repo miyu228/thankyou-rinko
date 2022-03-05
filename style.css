@@ -1,0 +1,368 @@
+body{
+    font-family: 'Sacramento', cursive;
+    width: auto;
+
+}
+
+header{
+    left: 0;
+    height:150px;
+    background-color:white;
+    border-bottom: 4px solid rgb(201, 115, 46);
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0り;
+    
+}
+.header-left{
+    float:left;
+    background-color: rgb(201, 115, 46);
+    color:white;
+    padding-right: 20px;
+    padding-left:20px;
+    font-size: 13px;
+    font-weight: bold;
+    height: 150px;
+}
+.header-left h1{
+    text-align: center;
+    font-weight: 300;
+    font-size: 35px;
+    
+
+}
+.header-left h3{
+    font-size: 20px;
+    text-align: center;
+    font-weight: lighter;
+}
+.header-right{
+    float:right;
+    
+}
+.Item{
+    text-decoration: none;
+    color:rgb(201, 115, 46);
+    font-size: 28px;
+    line-height: 150px;
+    background-color:white;
+    display: inline-block;
+    padding-right:50px;
+    padding-left: 50px;
+    
+
+  }
+  .Item-Text{
+    position: relative;
+    z-index: 1;
+  }
+  .Item-Text:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 0%;
+    height: 2px;
+    background:rgb(201, 115, 46);
+    z-index: -1;
+    transition: all 0.4s;
+  }
+  .Item:hover .Item-Text:after{
+    width: 100%;
+  }
+
+.main{
+    height:1000px;
+    width: 0 auto;
+    
+    
+}
+.main-image{
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 100px;
+    width: auto;
+    
+}
+.main-image img{
+    height:550px ;
+    width: auto;
+}
+.message-wrapper{
+    color:white;
+    position:absolute;
+    top: 95px;
+    left: 1250px;
+    font-size: 40px;
+    opacity: 0.7;
+    display: block;
+}
+
+
+
+.main-contents h2{
+font-size: 50px;
+}
+.main-contents-img{
+    display: inline-block;
+    width: 19%;
+    
+}
+.center-message{
+    text-align: center;
+    
+}
+.center-wrapper h2{
+    background-color:white;
+    height: 50px;
+    font-size:80px;
+    font-weight: lighter;
+    display: inline-block;
+    text-align: center;
+    border-bottom: 3px solid rgb(201, 115, 46);
+    padding-bottom: 20px;
+    margin-top: 50px;
+    
+}
+.center-wrapper{
+    text-align: center;
+    width: 100%;
+    background-color:white;
+    height: 450px;
+}
+input.serch-button{
+    width: 400px;
+    height: 30px;
+    margin-top: 100px;
+}
+
+.wrap{
+    height: 380px;
+    width: 380px;
+    background-size: cover;
+    
+    }
+    
+.imgA{
+    background-image:url("../img/17.jpg");
+}
+
+.imgB{
+    background-image:url("../img/10.jpg");
+    
+}
+.imgC{
+    background-image: url("../img/5.jpg");
+}
+.imgD{
+    background-image: url("../img/15.jpg");
+}
+
+.containers{
+    display: flex;
+    width: 100%;
+    
+}
+.text{
+    height: 380px;
+    width: 380px;
+    
+}
+.text h2{
+    font-size: 50px;
+    font-weight: lighter;
+    text-align: center;
+    width: 380pxx;
+    
+
+  
+}
+.text a{
+    text-align: center;
+    width: 380px;
+}
+.text p{
+    text-align: center;
+}
+.contents{
+    justify-content: space-between;
+    display: flex;
+    width:100%;
+    
+    
+}
+.contents2{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+
+}
+
+.btn-container{
+    color: white;
+    text-decoration: none;
+    width: 400px;
+    font-size: 30px;
+    line-height: 175px;
+    display: inline-block;
+    
+    text-align: center;
+    box-shadow: silver;
+    
+}
+.btn-text:active{
+    background-color: #DDDD;
+    box-shadow: none;
+    position: relative;
+    top: 3px;
+}
+.btn-text{
+    background-color:silver;
+    padding:5px 15px;
+    border-radius: 40px;
+    
+}
+
+.btn-text:hover{
+    background-color: #DDDD;
+}
+
+
+.under-wrapper{
+    width: 100%;
+    height: 600px;
+    display:flex ;
+    justify-content: center;
+    margin-top: 350px;
+    
+}
+.under-img{
+    width: 500px;
+    height: 600px;
+    border-top: 1px solid rgb(201, 115, 46);
+    border-left: 1px solid rgb(201, 115, 46);
+    border-bottom: 1px solid rgb(201, 115, 46);
+    
+    background-size: cover;
+    background-image: url("../img/9.jpg");
+}
+.under-message{
+    width: 500px;
+    height: 600px;
+    border-top: 1px solid rgb(201, 115, 46);
+    border-right: 1px solid rgb(201, 115, 46);
+    border-bottom: 1px solid rgb(201, 115, 46);
+    text-align: center;
+    
+}
+.under-message h2{
+    
+    display:inline-block;    
+    border-bottom: 2px solid rgb(201, 115, 46);
+    font-size: 50px;
+    font-weight: lighter;
+    color: black;
+}
+.under-message p{
+    justify-content: center;
+    display: flex; 
+    font-size: 40px;
+    color: black;    
+    
+}
+footer{
+   
+    height: 300px;
+    margin-top: 100px;
+    background-color: rgb(201, 115, 46);
+    font-size: 30px;
+}
+.footer-left {
+    font-size: 40px;
+    font-weight: lighter;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 70px;
+    color: white;
+    
+}
+.footer-right{
+    height: 230px;
+}
+.footer-items{
+    text-decoration: none;
+    color:white;
+    font-size: 33px;
+    line-height: 150px;
+    background-color:rgb(201, 115, 46);
+    display: inline-block;
+    padding-right:50px;
+    padding-left: 50px;
+    
+
+  }
+  .footer-text{
+    position: relative;
+    z-index: 1;
+  }
+  .footer-text:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 0%;
+    height: 2px;
+    background:white;
+    z-index: -1;
+    transition: all 0.4s;
+  }
+  .footer-items:hover .footer-text:after{
+    width: 100%;
+  }
+  .footer-container{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 130x;
+  }
+  .footer-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+  
+}
+  .footer-bottom h2{
+      font-weight: lighter;
+      font-size:40px;
+      margin-right: 30px;
+      display:inline-block;
+      color: white;
+      
+  }
+ 
+  .footer-bottom a{
+      line-height:100px;
+      display: inline-block;
+      color: white;
+      font-size: 30px;
+      margin-right: 30px;
+      margin-left: 20px;
+      text-decoration: none;
+      
+  }
+  .footer-bottom a:active{
+      box-shadow: none;
+      position: relative;
+      top: 10px;
+  }
+  .footer-bottom a:hover{
+      color: black;
+
+  }
